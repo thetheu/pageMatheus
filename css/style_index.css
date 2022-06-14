@@ -10,20 +10,17 @@ body {
     margin-bottom: 0px;
 }
 
-.v2_2 {
-    width: 100%;
+.backgroundd {
     height: 789px;
-    background: rgba(233, 233, 233, 1);
     position: relative;
-    top: 0px;
-    left: 0px;
     overflow: hidden;
+    opacity: 95%;
 }
 
 .nav {
     width: 100%;
     height: 80px;
-    background: rgba(217, 241, 255, 1);
+    background: rgb(0, 0, 0);
     box-shadow: 0px 1px 10px black;
 }
 
@@ -35,7 +32,7 @@ body {
     font-family: New Rocker;
     font-size: 35px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .estudos {
@@ -47,7 +44,7 @@ body {
     font-size: 20px;
     text-align: left;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .trabalhos {
@@ -58,6 +55,7 @@ body {
     font-family: New Rocker;
     font-size: 20px;
     text-align: left;
+    color: rgb(255, 255, 255);
 }
 
 .contato {
@@ -68,6 +66,7 @@ body {
     font-family: New Rocker;
     font-size: 20px;
     text-align: left;
+    color: rgb(255, 255, 255);
 }
 
 .perfil {
@@ -81,42 +80,56 @@ body {
 }
 
 .titulo_texto {
-    width: 121px;
     position: absolute;
-    top: 232px;
-    left: 570px;
+    top: 200px;
+    left: 600px;
     font-family: monospace;
-    font-size: 25px;
+    font-size: 30px;
     text-align: left;
 }
 
 .info {
-    width: 760px;
+    width: 660px;
     position: absolute;
-    top: 280px;
-    left: 572px;
+    top: 260px;
+    left: 600px;
     font-family: monospace;
-    font-size: 15px;
+    font-size: 18px;
     text-align: left;
 }
 
 .foto {
-    width: 400px;
-    height: 320px;
+    width: 350px;
+    height: 250px;
+    background-image: url("../img/IMG_0804.PNG");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 150px;
+    left: 197px;
+    overflow: hidden;
+    border-radius: 2%;
+    box-shadow: 0px 1px 3px black;
+}
+
+.foto2 {
+    width: 350px;
+    height: 150px;
     background-image: url("../img/IMG_0452.JPG");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     position: absolute;
-    top: 190px;
-    left: 87px;
+    top: 420px;
+    left: 197px;
     overflow: hidden;
     border-radius: 2%;
     box-shadow: 0px 1px 3px black;
 }
 
 .footer {
-    background: rgba(217, 217, 217, 1);
+    background: rgb(0, 0, 0);
     position: absolute;
     top: 656px;
     overflow: hidden;
@@ -127,7 +140,7 @@ body {
 }
 
 .git {
-    color: rgba(0, 0, 0, 1);
+    color: rgb(255, 255, 255);
     font-family: monospace;
     font-size: 14px;
     position: relative;
@@ -136,7 +149,7 @@ body {
 }
 
 .linkedin {
-    color: rgba(0, 0, 0, 1);
+    color: rgb(255, 255, 255);
     font-family: monospace;
     font-size: 14px;
     position: relative;
@@ -147,10 +160,12 @@ body {
 .links {
     padding-left: 40px;
 }
+
 .tittle {
     padding-left: 230px;
 }
-.redes{
+
+.redes {
     padding-left: 95px;
 }
 
@@ -201,7 +216,7 @@ body {
     margin-top: 15px;
     position: absolute;
     text-decoration: none;
-    color: rgba(0, 0, 0, 1);
+    color: rgb(255, 255, 255);
 }
 
 .insta {
@@ -210,7 +225,7 @@ body {
     margin-top: 57px;
     position: absolute;
     text-decoration: none;
-    color: rgba(0, 0, 0, 1);
+    color: rgb(255, 255, 255);
 }
 
 .tiktok {
@@ -219,5 +234,5 @@ body {
     margin-top: 100px;
     position: absolute;
     text-decoration: none;
-    color: rgba(0, 0, 0, 1);
+    color: rgb(255, 255, 255);
 }
