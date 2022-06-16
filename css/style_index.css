@@ -3,7 +3,7 @@
 }
 
 body {
-
+    height: 100%
 }
 
 .backgroundd {
@@ -30,6 +30,15 @@ body {
     color: rgb(255, 255, 255);
 
 }
+.titulo:hover{
+    color: rgba(201, 201, 201, 0.726);
+    border-left: 3px solid rgb(255, 255, 255);
+    border-spacing: 10px 5px;
+    border-radius: 3px;
+}
+.titulo:active{
+    color: rgb(255, 255, 255);
+}
 
 .estudos {
     position: relative;
@@ -39,6 +48,16 @@ body {
     font-size: 20px;
     text-align: left;
     text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.estudos:hover{
+    color: rgba(201, 201, 201, 0.726);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    border-spacing: 10px 5px;
+    left: 36.5%;
+    border-radius: 3px;
+}
+.estudos:active{
     color: rgb(255, 255, 255);
 }
 
@@ -63,18 +82,18 @@ body {
 }
 
 .perfil {
-    width: 60px;
-    height: 60px;
+    width: 4%;
+    height: 7.5%;
     background: rgba(217, 217, 217, 1);
     position: absolute;
-    top: 1%;
+    top: 1.2%;
     left: 93%;
     border-radius: 50%;
 }
 
 .titulo_texto {
     position: absolute;
-    top: 26%;
+    top: 20%;
     left: 42.5%;
     font-family: monospace;
     font-size: 30px;
@@ -84,10 +103,10 @@ body {
 .info {
     width: 40%;
     position: absolute;
-    top: 34%;
+    top: 27%;
     left: 42%;
     font-family: monospace;
-    font-size: 18px;
+    font-size: 17px;
     text-align: left;
 }
 
@@ -114,7 +133,7 @@ body {
     background-position: center center;
     background-size: cover;
     position: absolute;
-    top: 47%;
+    top: 49%;
     left: 14%;
     overflow: hidden;
     border-radius: 2%;
@@ -140,6 +159,9 @@ body {
     top: 12%;
     text-decoration: none;
 }
+.git:hover{
+    color: rgba(201, 201, 201, 0.726);
+}
 
 .linkedin {
     color: rgb(255, 255, 255);
@@ -149,9 +171,15 @@ body {
     top: 25%;
     text-decoration: none;
 }
+.linkedin:hover{
+    color: rgba(201, 201, 201, 0.726);
+}
 
 .links {
     padding-left: 2%;
+}
+.links:hover{
+    color: rgba(201, 201, 201, 0.726);
 }
 
 .tittle {
@@ -160,6 +188,7 @@ body {
 
 .redes {
     padding-left: 6%;
+    background-color: rgb(255, 255, 255);
 }
 
 .twitterimg {
@@ -209,7 +238,11 @@ body {
     top: 12%;
     position: absolute;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.twitter:hover{
+    background-color: rgba(129, 129, 129, 0.678);
+    border-right: 5px solid rgb(0, 0, 0);
 }
 
 .insta {
@@ -218,7 +251,11 @@ body {
     top: 42.5%;
     position: absolute;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.insta:hover{
+    background-color: rgba(129, 129, 129, 0.678);
+    border-right: 5px solid rgb(0, 0, 0);
 }
 
 .tiktok {
@@ -227,5 +264,8 @@ body {
     top: 73%;
     position: absolute;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}.tiktok:hover{
+    background-color: rgba(129, 129, 129, 0.678);
+    border-right: 5px solid rgb(0, 0, 0);
 }
